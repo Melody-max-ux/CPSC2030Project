@@ -10,7 +10,7 @@ require_once 'functions/housing_functions.php';
 $posts = [];
 
 //connect to database: PHP Data object representing Database connection
-$dbname = 'housingdb';
+$dbname = 'studentdb';
 $tableName = 'housing';
 
 $pdo = db_connect($dbname, $tableName);
