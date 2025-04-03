@@ -18,7 +18,7 @@ function db_connect($dbname, $tableName) {
 
      
         $sql = "CREATE TABLE IF NOT EXISTS $tableName (
-            id INT AUTO_INCREMENT PRIMARY KEY,
+            ID INT AUTO_INCREMENT PRIMARY KEY,
             address VARCHAR(100) NOT NULL,
             type VARCHAR(10) NOT NULL,
             area INT NOT NULL,
